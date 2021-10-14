@@ -15,7 +15,6 @@ namespace MagicAPI.Data
         }
         // Agregar los modelos a utilizar
         public DbSet<Suerte> Suerte { get; set; }
-        //public DbSet<Cancion> Cancion { get; set; }
 
 
     }

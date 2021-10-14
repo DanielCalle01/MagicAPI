@@ -11,8 +11,8 @@ namespace MagicAPI.Migrations
                 columns: table => new
                 {
                     FutureId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Vision = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    Imagen = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
+                    Vision = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    Imagen = table.Column<string>(type: "nvarchar(1500)", maxLength: 1500, nullable: true)
                 },
                 constraints: table =>
                 {
