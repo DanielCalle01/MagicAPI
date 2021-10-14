@@ -32,7 +32,6 @@ namespace MagicAPI
             options.UseSqlServer(Configuration.GetConnectionString("DbContext")));
 
 
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
